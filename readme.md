@@ -48,9 +48,10 @@ $ npm test
 
 #### date
 
-Type: `string` - every valid Date-ish string
+Type: `string`  
 Default: current date (day)
 
+Every valid Date-ish string   
 
 ## Authors & Contributors [![author tips][author-gittip-img]][author-gittip]
 **Charlike Mike Reagent**

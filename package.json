@@ -1,6 +1,6 @@
 {
   "name": "current-day-number",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get day number of the current year or given date format.",
   "main": "index.js",
   "scripts": {
