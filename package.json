@@ -1,7 +1,7 @@
 {
   "name": "current-day-number",
-  "version": "0.1.0",
-  "description": "Get day number of the current year or given date format.",
+  "version": "0.1.1",
+  "description": "Get day number of the current year or given date string format.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"

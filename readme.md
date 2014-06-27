@@ -1,6 +1,6 @@
 # current-day-number [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url]
 
-> Get day number of the current year or given date format.
+> Get day number of the current year or given date string format.
 
 
 ## Install [![Nodei.co stats][npmjs-install]][npmjs-url] 
