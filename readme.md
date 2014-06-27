@@ -44,7 +44,7 @@ $ npm test
 
 ## API
 
-### yearSeconds([date])
+### currentDayNumber([date])
 
 #### date
 
