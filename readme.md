@@ -2,15 +2,13 @@
 
 > Get day number of the current year or given date string format.
 
-
 ## Install [![Nodei.co stats][npmjs-install]][npmjs-url] 
 
 > Install with [npm](https://npmjs.org)
 
-```bash
+```
 $ npm install current-day-number
 ```
-
 
 # Usage
 ```js
@@ -33,25 +31,22 @@ currentDayNumber("02/16/2015")
 //=> 47
 ```
 
-
 ## Tests
 > As usual `npm test` **or** if you have [mocha][mocha-url] globally `mocha`
 
-```bash
+```
 $ npm test
 ```
 
-
 ## API
-
 ### currentDayNumber([date])
-
 #### date
 
 Type: `string`  
 Default: current date (day)
 
 Every valid Date-ish string   
+
 
 ## Authors & Contributors [![author tips][author-gittip-img]][author-gittip]
 **Charlike Mike Reagent**
