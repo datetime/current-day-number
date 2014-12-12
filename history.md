@@ -1,5 +1,8 @@
+## v1.0.2 / December 12, 2014
+- MAKEFILE!
+
 ## v1.0.1 / December 12, 2014
-- tweaks, Makefile (disappeared, wtf?)
+- tweaks, ~~Makefile (disappears, wtf?)~~
 - add and fix tests
 
 ## v1.0.0 / December 12, 2014
