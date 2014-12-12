@@ -1,4 +1,4 @@
-Copyright (c) 2014 Charlike Mike Reagent, contributors.
+Copyright (c) 2014 [Charlike Make Reagent][contrib-more], [contributors][contrib-url].  
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -20,3 +20,7 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
+
+[contrib-more]: http://j.mp/1stW47C
+[contrib-url]: https://github.com/datetime/current-day-number/graphs/contributors

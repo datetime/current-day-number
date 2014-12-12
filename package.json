@@ -1,42 +1,45 @@
 {
   "name": "current-day-number",
-  "version": "0.1.1",
-  "description": "Get day number of the current year or given date string format.",
-  "main": "index.js",
+  "description": "Get day number of the current date/year or given valid `Date` string format",
+  "version": "1.0.0",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "npm install && node_modules/.bin/mocha"
   },
-  "repository": "tunnckoCore/current-day-number",
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
   "keywords": [
-    "current",
+    "days",
     "day",
+    "calendar",
+    "year",
     "number",
+    "count",
+    "leap",
+    "datetime",
     "date",
-    "count"
+    "time",
+    "utils",
+    "util"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datetime/current-day-number.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/datetime/current-day-number/blob/master/license.md"
+  },
   "dependencies": {
     "day-seconds": "*"
   },
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^2.0.1"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/tunnckoCore/current-day-number/blob/master/license.md"
-  }],
-  "author": {
-    "name": "Charlike Mike Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "http://www.whistle-bg.tk"
-  },
-  "maintainers": [{
-    "name": "Charlike Mike Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "http://www.whistle-bg.tk"
-  }],
-  "contributors": [{
-    "name": "Charlike Mike Reagent",
-    "email": "mameto_100@mail.bg",
-    "url": "http://www.whistle-bg.tk"
-  }]
+  "engines": {
+    "node": ">= 0.10.33",
+    "npm": ">= 1.4.28"
+  }
 }
