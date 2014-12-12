@@ -18,7 +18,7 @@ var daySeconds = require('day-seconds');
 module.exports = function currentDayNumber(date) {
   var instance;
 
-  if (date && typeof date === 'string') {
+  if (date && typeof date === 'string' && date !== '') {
     instance = new Date(date);
   } else {
     instance = new Date();

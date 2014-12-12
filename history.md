@@ -1,3 +1,6 @@
+## v1.0.3 / December 12, 2014
+- add check for empty string
+
 ## v1.0.2 / December 12, 2014
 - MAKEFILE!
 
