@@ -1,3 +1,7 @@
+## v1.0.1 / December 12, 2014
+- tweaks, Makefile (disappeared, wtf?)
+- add and fix tests
+
 ## v1.0.0 / December 12, 2014
 - moved to [datetime org][datetime-url]
 - fixes/tweaks readme, licenses, Makefile, package.json, dotfiles, etc
