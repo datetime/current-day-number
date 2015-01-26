@@ -1,17 +1,25 @@
-# current-day-number [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![datetime org][datetime-img]][datetime-url]
+## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
+
 > Get day number of the current date/year or given valid `Date` string format
 
-
-## Install [![Nodei.co stats][npmjs-ico]][npmjs-url] 
-> Install with [npm](https://npmjs.org)
-
-```
-$ npm install current-day-number
-$ npm test
+## Install
+```bash
+npm install current-day-number
+npm test
 ```
 
 
-## Usage
+## API
+> For more use-cases see the [tests](./test.js)
+
+### [currentDayNumber](./index.js#L40)
+> Get day number of the current date/year or given valid `Date` string format
+
+- `[date]` **{String}** every valid Date-ish string format
+- `return` **{Number}**
+
+**Example:**
+
 ```js
 var currentDayNumber = require('current-day-number');
 
@@ -31,51 +39,45 @@ currentDayNumber('August 07, 2016');
 currentDayNumber('02/16/2015');
 //=> 47
 ```
-> For more use-cases see [tests](./test.js)
 
 
-## [.currentDayNumber](index.js#L18)
-- `[date]` **{String}** every valid Date-ish string format
-
-
-## Authors & Contributors
-**Charlike Mike Reagent** [![author tips][author-gittip-img]][author-gittip]
-+ [gittip/tunnckoCore][author-gittip]
-+ [github/tunnckoCore][author-github]
+## Author
+**Charlike Mike Reagent**
++ [gratipay/tunnckoCore][author-gratipay]
 + [twitter/tunnckoCore][author-twitter]
++ [github/tunnckoCore][author-github]
 + [npmjs/tunnckoCore][author-npmjs]
 + [more ...][contrib-more]
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
+Copyright (c) 2014-2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
 [npmjs-url]: http://npm.im/current-day-number
-[npmjs-img]: http://img.shields.io/npm/v/current-day-number.svg
-[npmjs-ico]: https://nodei.co/npm/current-day-number.svg?mini=true
+[npmjs-img]: https://img.shields.io/npm/v/current-day-number.svg?style=flat&label=current-day-number
 
 [coveralls-url]: https://coveralls.io/r/datetime/current-day-number?branch=master
-[coveralls-img]: https://img.shields.io/coveralls/datetime/current-day-number.svg
+[coveralls-img]: https://img.shields.io/coveralls/datetime/current-day-number.svg?style=flat
 
 [license-url]: https://github.com/datetime/current-day-number/blob/master/license.md
-[license-img]: http://img.shields.io/badge/license-MIT-blue.svg
+[license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
 [travis-url]: https://travis-ci.org/datetime/current-day-number
-[travis-img]: https://travis-ci.org/datetime/current-day-number.svg
+[travis-img]: https://img.shields.io/travis/datetime/current-day-number.svg?style=flat
 
-[depstat-url]: https://david-dm.org/datetime/current-day-number
-[depstat-img]: https://david-dm.org/datetime/current-day-number.svg
+[daviddm-url]: https://david-dm.org/datetime/current-day-number
+[daviddm-img]: https://img.shields.io/david/datetime/current-day-number.svg?style=flat
 
-[author-gittip-img]: http://img.shields.io/gittip/tunnckoCore.svg
-[author-gittip]: https://www.gittip.com/tunnckoCore
-[author-github]: https://github.com/tunnckoCore
+[author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
+[author-github]: https://github.com/tunnckoCore
 [author-npmjs]: https://npmjs.org/~tunnckocore
 
 [contrib-more]: http://j.mp/1stW47C
 [contrib-graf]: https://github.com/datetime/current-day-number/graphs/contributors
 
-[datetime-img]: http://img.shields.io/badge/datetime-approved-brightgreen.svg
-[datetime-url]: https://github.com/datetime
+***
+
+_Powered and automated by [kdf](https://github.com/tunnckoCore), January 26, 2015_
