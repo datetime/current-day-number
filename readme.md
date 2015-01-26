@@ -12,7 +12,7 @@ npm test
 ## API
 > For more use-cases see the [tests](./test.js)
 
-### [currentDayNumber](./index.js#L40)
+### [currentDayNumber](./index.js#L42)
 > Get day number of the current date/year or given valid `Date` string format
 
 - `[date]` **{String}** every valid Date-ish string format
