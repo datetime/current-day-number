@@ -52,7 +52,7 @@
     "url": "https://github.com/datetime/current-day-number/blob/master/license.md"
   },
   "dependencies": {
-    "day-seconds": "*"
+    "day-seconds": "^1.0.0"
   },
   "devDependencies": {
     "istanbul-harmony": "^0.3.1",
