@@ -1,5 +1,11 @@
 
 
+## v1.0.4 / January 26, 2015
+- Release v1.0.4 / npm@v1.0.4
+- update tests
+- add coverage
+- refactor, docs
+
 ## v1.0.3 / December 12, 2014
 - Release v1.0.3 / npm@v1.0.3
 - add check for empty string
