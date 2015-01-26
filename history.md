@@ -1,5 +1,9 @@
 
 
+## v1.0.5 / January 26, 2015
+- Release v1.0.5 / npm@v1.0.5
+- bump to day-seconds@^1.0.0
+
 ## v1.0.4 / January 26, 2015
 - Release v1.0.4 / npm@v1.0.4
 - update tests

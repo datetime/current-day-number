@@ -1,6 +1,6 @@
 {
   "name": "current-day-number",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Get day number of the current date/year or given valid `Date` string format",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
