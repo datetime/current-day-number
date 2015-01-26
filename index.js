@@ -50,5 +50,5 @@ module.exports = function currentDayNumber(date) {
   var start = instance.setMonth(0,0);
   var diff = now - start;
 
-  return (diff / daySeconds(true)) | 0;
+  return (diff / daySeconds(false)) | 0;
 };
