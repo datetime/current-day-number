@@ -1,5 +1,14 @@
 
 
+## v1.0.6 / March 02, 2015
+- Release v1.0.6 / npm@v1.0.6
+- add more examples to help info
+- run `update readme`
+- fix/faster travis
+- bump deps
+- add license banner
+- add cli
+
 ## v1.0.5 / January 26, 2015
 - Release v1.0.5 / npm@v1.0.5
 - bump to day-seconds@^1.0.0
