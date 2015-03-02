@@ -1,4 +1,11 @@
 #!/usr/bin/env node
+/**
+ * current-day-number <https://github.com/datetime/current-day-number>
+ *
+ * Copyright (c) 2014-2015 Charlike Mike Reagent, contributors.
+ * Released under the MIT license.
+ */
+
 'use strict';
 
 var pkg = require('./package.json');
