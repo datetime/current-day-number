@@ -3,9 +3,10 @@
 > Get day number of the current date/year or given valid `Date` string format
 
 ## Install
-```bash
-npm install current-day-number
+```
+npm i --save current-day-number
 npm test
+current-day-number --help
 ```
 
 
@@ -39,6 +40,11 @@ currentDayNumber('August 07, 2016');
 currentDayNumber('02/16/2015');
 //=> 47
 ```
+
+## CLI
+> You can just run `current-day-number --help` for more information.
+
+![current day number cli image](http://i.gyazo.com/f8e629c80cb2ea5641f251f3c017fecb.png)
 
 
 ## Author
@@ -80,4 +86,4 @@ Released under the [`MIT`][license-url] license.
 
 ***
 
-_Powered and automated by [kdf](https://github.com/tunnckoCore), January 26, 2015_
+_Powered and automated by [kdf](https://github.com/tunnckoCore), March 02, 2015_
