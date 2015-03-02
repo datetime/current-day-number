@@ -18,6 +18,10 @@ function help() {
     '  ' + pkg.description,
     '',
     '  Example',
+    '    $ current-day-number 02/16/2015',
+    '    47',
+    '    $ current-day-number August 07, 2016',
+    '    219',
     '    $ current-day-number',
     '    47'
   ].join('\n'));
@@ -28,7 +32,8 @@ if (argv.indexOf('--help') !== -1) {
 }
 
 if (argv.indexOf('--version') !== -1) {
-  return console.log(pkg.version);
+  console.log(pkg.version);
+  return;
 }
 
 console.log(currentDayNumber(argv.join('')));
