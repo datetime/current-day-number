@@ -47,6 +47,9 @@
     "year",
     "years"
   ],
+  "bin": {
+    "current-day-number": "cli.js"
+  },
   "license": {
     "type": "MIT",
     "url": "https://github.com/datetime/current-day-number/blob/master/license.md"
